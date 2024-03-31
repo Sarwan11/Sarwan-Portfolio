@@ -4,6 +4,19 @@
     gap: 2rem;
 }
 
+.experience__container_new {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+.experience__container_new > div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
 .experience__container > div {
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
@@ -18,7 +31,7 @@
     cursor: default;
 }
 
-.experience__container > div h3 {
+.experience__container div h3 {
     text-align: center;
     margin-bottom: 2rem;
     color: var(--color-primary);

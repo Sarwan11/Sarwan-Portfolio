@@ -131,46 +131,18 @@ const Experience = () => {
     "CSS",
     "JavaScript",
     "React",
-    "NextJs",
     "Redux",
-    "Sass",
-    "Angular",
-    "TypeScript",
     "Bootstrap",
-  ];
-  const backendSkills = [
-    "NodeJs",
-    "Swagger",
-    "gRPC",
-    "NestJs",
-    "Express",
-    "MySQL",
-    "PostgreSQL",
-    "MongoDB",
-    "Git",
-    "GitHub",
-  ];
-  const devopsSkills = [
-    "AWS",
-    "Azure",
-    "Firebase",
-    "Docker",
-    "PM2",
-    "Redis",
-    "RabbitMQ",
-    "Sequelize",
-    "Nginx",
-    "AWS Lambda",
   ];
 
   return (
     <section id="experience">
       <h5>The Skills I Have</h5>
       <h2>Skills</h2>
-      <div className="container experience__container">
+      <div className="experience__container_new">
         <SkillSection title="Frontend Development" skills={frontendSkills} />
-        <SkillSection title="Backend Development" skills={backendSkills} />
-        <SkillSection title="DevOps" skills={devopsSkills} />
+        {/* <SkillSection title="Backend Development" skills={backendSkills} />
+        <SkillSection title="DevOps" skills={devopsSkills} /> */}
       </div>
     </section>
   );

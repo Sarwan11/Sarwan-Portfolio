@@ -38,8 +38,8 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>vishalkumar17153@gmail.com</h5>
-            <a href="vishalkumar17153@gmail.com">Send a message</a>
+            <h5>thalasarwan45@gmail.com</h5>
+            <a href="thalasarwan45@gmail.com">Send a message</a>
           </article>
         </div>
         <form ref={formRef} onSubmit={handleSubmit}>
@@ -60,12 +60,11 @@ const Contact = () => {
             placeholder="Your message"
             rows="7"
             name="message"
-            required
-          ></textarea>
+            required></textarea>
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
-          {message && <span>Thanks, I'll reply ASAP :)</span>}
+          {message && <span>Thanks, I'll reply ASAP :</span>}
         </form>
       </div>
     </section>
