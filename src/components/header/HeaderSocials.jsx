@@ -11,7 +11,7 @@ const HeaderSocials = () => {
         rel="noreferrer">
         <BsLinkedin />
       </a>
-      <a href="#" target="_blank" rel="noreferrer">
+      <a href="https://github.com/Sarwan11" target="_blank" rel="noreferrer">
         <FaGithub />
       </a>
     </div>
