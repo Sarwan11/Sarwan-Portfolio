@@ -20,7 +20,7 @@
     "swiper": "^8.2.4",
     "web-vitals": "^2.1.4"
   },
-  CI='' npm run build  "scripts": {
+   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
