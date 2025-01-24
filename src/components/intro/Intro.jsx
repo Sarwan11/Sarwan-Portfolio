@@ -11,14 +11,6 @@ const Intro = () => {
     {
       title: "Software training ",
       company: "Rad techPro pvt. ltd.",
-      duration: "19 sept/2022 - sept/2023",
-      // logo: require("../../assets"),
-    },
-
-    {
-      title: "Software intern",
-      company: "codebrew labs",
-      duration: "dec/2023",
     },
   ];
   const projectDetails = [
@@ -63,7 +55,7 @@ const Intro = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="me" />
+            <img src={ME} alt="me" width="20px" height="200px" />
           </div>
         </div>
         <div className="about__content">

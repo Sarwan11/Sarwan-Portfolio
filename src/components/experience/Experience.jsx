@@ -141,11 +141,8 @@ const Experience = () => {
       <h2>Skills</h2>
       <div className="experience__container_new">
         <SkillSection title="Frontend Development" skills={frontendSkills} />
-        {/* <SkillSection title="Backend Development" skills={backendSkills} />
-        <SkillSection title="DevOps" skills={devopsSkills} /> */}
       </div>
     </section>
   );
 };
-
 export default Experience;

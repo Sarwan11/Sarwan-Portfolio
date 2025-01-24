@@ -16,7 +16,7 @@ const Contact = () => {
         "service_njp57ju",
         "template_4pbpbxo",
         formRef.current,
-        "bB3NP10Zpxui8hwpj"
+        "bB3NP10Zpxi8hwpj"
       )
       .then(
         (result) => {

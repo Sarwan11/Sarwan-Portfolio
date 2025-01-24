@@ -9,12 +9,12 @@ import Topbar from "./components/topbar/Topbar";
 const App = () => {
   return (
     <>
-      <Header />
-      <Topbar />
+      {/* <Header /> */}
+      {/* <Topbar /> */}
       <Intro />
-      <Experience />
+      {/* <Experience />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };

@@ -14,7 +14,8 @@ const Header = () => {
         <HeaderSocials />
       </div>
     </header>
-  );
+  ); 
 };
 
 export default Header;
+// 
